@@ -1,0 +1,48 @@
+# ============================================================
+#  MedGenius — .gitignore
+#  Prevents secrets and generated files from being committed
+# ============================================================
+
+# ── SECRETS (never commit these) ──────────────────────────
+.env
+.env.local
+.env.production
+*.key
+*.pem
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual Environment ────────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ── ML Model (regenerated on startup) ─────────────────────
+models/*.pkl
+models/*.joblib
+
+# ── Uploads (user files, not source code) ─────────────────
+uploads/
+
+# ── Logs ──────────────────────────────────────────────────
+logs/
+*.log
+
+# ── VS Code ───────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── OS files ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

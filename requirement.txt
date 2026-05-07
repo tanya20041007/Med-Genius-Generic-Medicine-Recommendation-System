@@ -1,0 +1,35 @@
+# MedGenius - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core Framework ────────────────────────────────────────
+Flask==3.1.3
+Werkzeug==3.1.7
+
+# ── Authentication ────────────────────────────────────────
+PyJWT==2.7.0
+bcrypt==4.1.3        # SECURITY FIX #1: secure password hashing (replaces SHA-256)
+
+# ── Machine Learning ──────────────────────────────────────
+scikit-learn>=1.3.0
+numpy>=1.24.0
+scipy>=1.10.0
+joblib>=1.3.0
+
+# ── Data Processing ───────────────────────────────────────
+pandas>=2.0.0
+
+# ── Image Processing & OCR ────────────────────────────────
+Pillow>=10.0.0
+opencv-python-headless>=4.8.0
+pytesseract>=0.3.10
+
+# ── Visualization (for analytics) ────────────────────────
+matplotlib>=3.7.0
+
+# ── Utilities ─────────────────────────────────────────────
+python-dotenv>=1.0.0  # SECURITY FIX #2: loads .env file for SECRET_KEY
+
+# ── System Tesseract (install separately) ─────────────────
+# Ubuntu/Debian: sudo apt-get install tesseract-ocr
+# macOS:         brew install tesseract
+# Windows:       https://github.com/UB-Mannheim/tesseract/wiki

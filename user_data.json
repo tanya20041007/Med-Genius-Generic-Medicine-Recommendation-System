@@ -1,0 +1,107 @@
+{
+  "users": {
+    "demo@medgenius.ai": {
+      "id": "demo-user-001",
+      "name": "Demo User",
+      "email": "demo@medgenius.ai",
+      "password_hash": "$2b$12$GK.xaU/hUABts.eohHV1Ve/nIC4pElU41imm2HUL7bMo1rxYmasRq",
+      "created_at": "2024-01-01",
+      "role": "user"
+    },
+    "suhas123@gmail.com": {
+      "id": "43487a42-c5b2-40d0-baa3-40932e6c1540",
+      "name": "Mr. suhas",
+      "email": "suhas123@gmail.com",
+      "password_hash": "$2b$12$cRWGy2yjBIG2n4I5UI49deiOwvCg0NbhjPet5WvizJaWOhjaiKrE6",
+      "created_at": "2026-05-01T08:06:18.274718",
+      "role": "user"
+    },
+    "mukesh234@gmail.com": {
+      "id": "2648fb7c-3799-46fe-8855-274100a68f5f",
+      "name": "mr mukesh",
+      "email": "mukesh234@gmail.com",
+      "password_hash": "$2b$12$/g/j7pope4MqMZynSh52dujfku/Pv6zxzu.LqxN9MzEbJmxnW7dnm",
+      "created_at": "2026-05-01T08:14:57.677132",
+      "role": "user"
+    }
+  },
+  "scan_history": {
+    "demo-user-001": [],
+    "cc9a7c68-872a-4889-a55f-9b3072f4fba1": [
+      {
+        "id": "b7a7062b-7b41-4042-906f-99d219a12290",
+        "timestamp": "2026-05-01T08:00:29.781595",
+        "medicines_found": [
+          "Amoxicillin"
+        ],
+        "confidence": 98,
+        "text_preview": "PRESCRIPTION DOCTOR line pave: 0103/2024 . Re NAME: Johr. Doe AGE: us \u2018ADDRESS: 1234 Elm Springbield"
+      },
+      {
+        "id": "5bac1a11-97f6-4b78-a728-6cd6ab60ed4f",
+        "timestamp": "2026-05-01T07:58:21.304898",
+        "medicines_found": [
+          "Amoxicillin"
+        ],
+        "confidence": 98,
+        "text_preview": "PRESCRIPTION DOCTOR line pave: 0103/2024 . Re NAME: Johr. Doe AGE: us \u2018ADDRESS: 1234 Elm Springbield"
+      }
+    ],
+    "43487a42-c5b2-40d0-baa3-40932e6c1540": [
+      {
+        "id": "06d84ec8-870f-4918-ba40-03d6afa6c5fc",
+        "timestamp": "2026-05-01T08:06:54.147230",
+        "medicines_found": [
+          "Amoxicillin"
+        ],
+        "confidence": 98,
+        "text_preview": "PRESCRIPTION DOCTOR line pave: 0103/2024 . Re NAME: Johr. Doe AGE: us \u2018ADDRESS: 1234 Elm Springbield"
+      }
+    ],
+    "2648fb7c-3799-46fe-8855-274100a68f5f": [
+      {
+        "id": "14240add-fccf-40e5-b73b-4bf49f72f225",
+        "timestamp": "2026-05-01T08:16:20.394191",
+        "medicines_found": [
+          "Amoxicillin"
+        ],
+        "confidence": 98,
+        "text_preview": "PRESCRIPTION DOCTOR line pave: 0103/2024 . Re NAME: Johr. Doe AGE: us \u2018ADDRESS: 1234 Elm Springbield"
+      }
+    ]
+  },
+  "search_history": {
+    "demo-user-001": [],
+    "cc9a7c68-872a-4889-a55f-9b3072f4fba1": [
+      {
+        "query": "headache",
+        "timestamp": "2026-05-01T08:00:10.739135",
+        "results_count": 3
+      },
+      {
+        "query": "I have a headache  and body ache",
+        "timestamp": "2026-05-01T07:57:57.764099",
+        "results_count": 4
+      }
+    ],
+    "43487a42-c5b2-40d0-baa3-40932e6c1540": [
+      {
+        "query": "stomach ache",
+        "timestamp": "2026-05-01T08:10:56.935212",
+        "results_count": 5
+      },
+      {
+        "query": "headache",
+        "timestamp": "2026-05-01T08:06:32.315780",
+        "results_count": 3
+      }
+    ],
+    "2648fb7c-3799-46fe-8855-274100a68f5f": [
+      {
+        "query": "I have a headache",
+        "timestamp": "2026-05-01T08:15:46.549571",
+        "results_count": 3
+      }
+    ]
+  }
+}
